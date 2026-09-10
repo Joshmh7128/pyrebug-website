@@ -327,7 +327,7 @@ p {
 
 .work-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 24px;
   margin: 0;
   padding: 0;
@@ -408,7 +408,7 @@ p {
   font-size: 15px;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 760px) {
   .work-grid {
     grid-template-columns: 1fr;
   }
